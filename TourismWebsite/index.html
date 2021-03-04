@@ -11,8 +11,7 @@
 
 <body>
     <div id="main">
-        <!-- <img src="../img/3.jpg" alt=""> -->
-        <nav id="navbar">
+        <nav id="navbar myTopnav" class="topnav">
             <label class="logo">LOGO</label>
             <ul>
                 <li><a href="#" class="active">TRIPS</a></li>
@@ -24,65 +23,97 @@
         </nav>
     </div>
 
-    <!-- <section class="content">
-        <div class="inner">
-            <h5>Welcome</h5>
-        </div>
-    </section> -->
-
-
     <main>
         <section>
             <h3>WELCOME</h3>
-            <h1>What's your plan<span class="change_content"></span></h1>
-            <p>Come and join us</p>
+            <h1>Plan your trip with us<span class="change_content"></span></h1>
+            <p class="welcome-msg">Come and join us</p>
 
-            <div style="font-size:1.5em">
-                <a href="#" class="button5" style="background-color:#35c454;">About us</a>
-                <!-- <button>About us</button> -->
-
-            </div>
-
-        </section>
+            <div style="font-size: 1.5em">
+                <a href="#aboursection" class="button5" style="background-color: #35c454">About us</a
+          >
+        </div>
+      </section>
     </main>
 
-    <section id="contactus">
-        <div class="d-contact">
-            <div class="container">
-                <div style="text-align:center">
-                    <h2>Contact Us</h2>
+    <section id="service-sec">
+      <div>
+        <h2 class="Services">Services</h2>
+        <hr align="center" width="50%" />
+      </div>
+    </section>
 
-                </div>
-                <div class="row">
-                    <div class="column">
-                        <img src="../img/3.jpg" style="width:100%">
-                    </div>
-                    <div class="column">
-                        <form action="/action_page.php">
-                            <label for="fname">First Name</label>
-                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                            <label for="lname">Last Name</label>
-                            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                            <label for="country">Country</label>
-                            <select id="country" name="country">
-          <option value="australia">Australia</option>
-          <option value="canada">Canada</option>
-          <option value="usa">USA</option>
-        </select>
-                            <label for="subject">Subject</label>
-                            <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-                            <input type="submit" value="Submit">
-                        </form>
-                    </div>
-                </div>
+    <section id="aboursection">
+      <div id="aboutus">
+        <h3>ABOUT US</h3>
+        <hr align="center" width="50%" />
+        <p class="about-para">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis magni
+          eius repellat! Quae, molestias sunt consectetur hic quam delectus quo
+          minus ut, eaque repellendus eum cupiditate. Voluptates mollitia quia
+          blanditiis. Reprehenderit possimus non necessitatibus impedit ratione
+          ducimus ex reiciendis repellendus culpa quos aspernatur eveniet iure,
+          sequi corrupti. Odio vitae qui animi magnam? Fugiat culpa voluptatem
+          illo at nihil quas sint? Dolorum quidem maiores quia neque velit
+          inventore, voluptatibus in. Sunt, facilis facere quia veritatis quidem
+          aut fugiat, qui aliquid temporibus totam vitae eaque tempore, nam
+          minus delectus possimus incidunt nostrum! Suscipit necessitatibus,
+          explicabo voluptas dolores cum porro commodi quaerat tempore
+          consequatur quidem ex provident itaque, deserunt sint illum cupiditate
+          eos beatae unde, accusantium sit est obcaecati ab fuga iusto. Optio.
+        </p>
+      </div>
+    </section>
+
+    <section id="contactus">
+      <div class="d-contact">
+        <div class="container">
+          <div style="text-align: center">
+            <h2>Contact Us</h2>
+          </div>
+          <div class="row">
+            <div class="column">
+              <img src="./img/3.jpg" style="width: 100%" />
             </div>
+            <div class="column">
+              <form action="/action_page.php">
+                <label for="fname">First Name</label>
+                <input
+                  type="text"
+                  id="fname"
+                  name="firstname"
+                  placeholder="Your name.."
+                />
+                <label for="lname">Last Name</label>
+                <input
+                  type="text"
+                  id="lname"
+                  name="lastname"
+                  placeholder="Your last name.."
+                />
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                  <option value="australia">Australia</option>
+                  <option value="canada">Canada</option>
+                  <option value="usa">USA</option>
+                </select>
+                <label for="subject">Subject</label>
+                <textarea
+                  id="subject"
+                  name="subject"
+                  placeholder="Write something.."
+                  style="height: 170px"
+                ></textarea>
+                <input type="submit" value="Submit" />
+              </form>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <footer>
-        <p>&copy; 2021 Privacy policy</p>
-
+      <p>&copy; 2021 Privacy policy</p>
     </footer>
-</body>
-
+  </body>
 </html>
