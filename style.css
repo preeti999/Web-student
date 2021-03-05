@@ -227,7 +227,7 @@ body{
 }
 
 .searchTerm:focus{
-  color: #3eca1b;
+  color: black;
 }
 
 .searchButton {
