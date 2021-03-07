@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,49 +9,57 @@
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script>
-        $(document).ready(function() {
-            $("#icon").click(function() {
-                $("ul").toggleClass("show");
-            });
+      $(document).ready(function () {
+        $("#icon").click(function () {
+          $("ul").toggleClass("show");
         });
+      });
     </script>
-</head>
+  </head>
 
-<body>
+  <body>
     <div id="main">
-        <nav id="navbar myTopnav" class="topnav">
-            <label class="logo">LOGO</label>
-            <ul>
-                <li><a href="#" class="active">TRIPS</a></li>
-                <li><a href="#">RECOMMENDED ISLAND</a></li>
-                <li><a href="#">TRANSPORT</a></li>
-                <li><a href="#">BOAT CHARTER</a></li>
-                <li><a href="#">BOAT TIME TABLE</a></li>
-            </ul>
-            <label id="icon">
+      <nav id="navbar myTopnav" class="topnav">
+        <label class="logo">LOGO</label>
+        <ul>
+          <li><a href="#" class="active">TRIPS</a></li>
+          <li><a href="#">RECOMMENDED ISLAND</a></li>
+          <li><a href="#">TRANSPORT</a></li>
+          <li><a href="login.html">LOG IN</a></li>
+          <li><a href="login.html">SIGN UP</a></li>
+        </ul>
+        <label id="icon">
           <i class="fas fa-bars"></i>
         </label>
-        </nav>
+      </nav>
 
-        <div class="wrap">
-          <div class="search">
-            <input type="text" class="searchTerm" placeholder="What are you looking for?">
-              <button type="submit" class="searchButton">
-              <i class="fa fa-search"></i>
-            </button>
-          </div>
+      <div class="wrap">
+        <div class="search">
+          <input
+            type="text"
+            class="searchTerm"
+            placeholder="What are you looking for?"
+          />
+          <button type="submit" class="searchButton">
+            <i class="fa fa-search"></i>
+          </button>
         </div>
-
+      </div>
     </div>
 
     <main>
-        <section>
-            <h3>WELCOME</h3>
-            <h1>Plan your trip with us<span class="change_content"></span></h1>
-            <p class="welcome-msg">Come and join us</p>
+      <section>
+        <h3>WELCOME</h3>
+        <h1>Find your dream trip<span class="change_content"></span>
+        </h1>
+        <br />
 
-            <div style="font-size: 1.5em">
-                <a href="#aboursection" class="button5" style="background-color: #35c454">About us</a
+        <div style="font-size: 1.5em">
+          <a
+            href="#aboursection"
+            class="button5"
+            style="background-color: #35c454"
+            >About us</a
           >
         </div>
       </section>
@@ -61,7 +68,6 @@
     <section id="service-sec">
       <div>
         <h2 class="Services">Services</h2>
-        
       </div>
     </section>
 
@@ -95,7 +101,7 @@
           </div>
           <div class="row">
             <div class="column">
-              <img src="./img/3.jpg" style="width: 100%" />
+              <img src="./img/contact-us.jpg" style="width: 100%" />
             </div>
             <div class="column">
               <form action="/action_page.php">
