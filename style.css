@@ -200,7 +200,7 @@ a.button5:hover {
   border-color: red;
 }
 
-/* search bar */
+/*-------------search bar----------- */
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
@@ -337,23 +337,66 @@ hr {
   font-weight: 400;
 }
 
-.Services {
-  width: 100%;
-  height: 100vh;
-  font-size: 50px;
-  font-weight: 500;
-  text-align: center;
-  background-image: url("./img/4.jpg");
-  background-size: cover;
-  color: white;
-}
+/* ----------- Services styling */
 
-.d-services {
-  height: 100px;
-  width: 100px;
-  background-color: #c21414;
-  display: flex;
-  flex-direction: column;
+.services {
+  background: #f4f1de;
+  /* background-image: url("./s.jpg"); */
+  /* background-size: cover; */
+
+  text-align: center;
+}
+.services h1 {
+  display: inline-block;
+  text-transform: uppercase;
+  border-bottom: 4px solid #030303;
+  font-size: 20px;
+  padding-bottom: 10px;
+  margin-top: 40px;
+}
+.cen {
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  padding: 20px;
+}
+.service {
+  display: inline-block;
+  width: calc(100% / 3);
+  margin: 0 -2px;
+  padding: 20px;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.service:hover {
+  background: #8d99ae;
+}
+.service i {
+  color: #3498db;
+  font-size: 34px;
+  margin-bottom: 30px;
+}
+.service h2 {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 0;
+}
+.service p {
+  color: gray;
+  font-size: 15px;
+  font-weight: 500;
+}
+@media screen and (max-width: 800px) {
+  .service {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .service {
+    width: 100%;
+  }
 }
 
 /* ------------- LOG-IN & SIGN-UP  ---------------- */
@@ -561,7 +604,7 @@ span {
 .about-btn:hover::after {
   width: 100%;
 }
-@media (max-width: 768px) {
+@media (max-width: 360px) {
   .grid {
     grid-template-columns: 1fr;
   }

@@ -8,16 +8,17 @@
     <link rel="stylesheet" href="style.css" />
   </head>
 
-
   <body>
-
-
     <div class="hero">
       <div class="form-box">
         <div class="button-box">
           <div id="btn"></div>
-          <button type="button" class="toggle-btn" onclick="login()">Log In</button>
-          <button type="button" class="toggle-btn" onclick="signup()">Sign Up</button>
+          <button type="button" class="toggle-btn" onclick="login()">
+            Log In
+          </button>
+          <button type="button" class="toggle-btn" onclick="signup()">
+            Sign Up
+          </button>
         </div>
         <div class="social-icons">
           <img src="./img/fb.png" alt="facebook" />
@@ -27,13 +28,13 @@
 
         <form class="input-group" id="login">
           <input
-            type="text"
+            type="input"
             class="input-field"
             placeholder="User Id"
             required
           />
           <input
-            type="text"
+            type="password"
             class="input-field"
             placeholder="Enter password"
             required
@@ -45,7 +46,7 @@
 
         <form class="input-group" id="signup">
           <input
-            type="text"
+            type="input"
             class="input-field"
             placeholder="User Id"
             required
@@ -57,7 +58,7 @@
             required
           />
           <input
-            type="text"
+            type="password"
             class="input-field"
             placeholder="Enter password"
             required
@@ -70,21 +71,20 @@
     </div>
 
     <script>
-        var x=document.getElementById("login");
-        var y=document.getElementById("signup");
-        var z = document.getElementById("btm");
+      var x = document.getElementById("login");
+      var y = document.getElementById("signup");
+      var z = document.getElementById("btm");
 
-        function signup(){
-            x.style.left="-400px";
-            y.style.left="50px";
-            z.style.left="110px";
-        }
-        function login (){
-            x.style.left="50px";
-            y.style.left="450px";
-            z.style.left="0px";
-        }
-
+      function signup() {
+        x.style.left = "-400px";
+        y.style.left = "50px";
+        z.style.left = "110px";
+      }
+      function login() {
+        x.style.left = "50px";
+        y.style.left = "450px";
+        z.style.left = "0px";
+      }
     </script>
   </body>
 </html>
