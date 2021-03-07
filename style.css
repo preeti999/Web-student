@@ -1,232 +1,232 @@
 * {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 nav {
-    background-color: #0001;
-    height: 80px;
-    width: 100%;
-    line-height: 80px;
+  background-color: #0001;
+  height: 80px;
+  width: 100%;
+  line-height: 80px;
 }
 
 label.logo {
-    color: white;
-    font-size: 35px;
-    line-height: 80px;
-    padding: 0 100px;
-    font-weight: bold;
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
 }
 
 nav ul {
-    float: right;
-    margin-right: 20px;
+  float: right;
+  margin-right: 20px;
 }
 
 nav ul li {
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
-    transition: 0.5s all;
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+  transition: 0.5s all;
 }
 
 nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 17px;
-    text-transform: uppercase;
-    padding: 10px;
-    text-decoration: none;
-    color: azure;
-    padding: 10px;
-    /* font-weight: 500px; */
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  text-transform: uppercase;
+  padding: 10px;
+  text-decoration: none;
+  color: azure;
+  padding: 10px;
+  /* font-weight: 500px; */
 }
 
 nav #icon {
-    color: white;
-    font-size: 30px;
-    line-height: 80px;
-    float: right;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
-    margin-right: 40px;
+  color: white;
+  font-size: 30px;
+  line-height: 80px;
+  float: right;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+  margin-right: 40px;
 }
 
-@media(max-width:1044px) {
-    lable.logo {
-        font-size: 32px;
-        padding-left: 60px;
-    }
-    nav ul {
-        margin-right: 20px;
-    }
-    nav a {
-        font-size: 17px;
-    }
+@media (max-width: 1044px) {
+  lable.logo {
+    font-size: 32px;
+    padding-left: 60px;
+  }
+  nav ul {
+    margin-right: 20px;
+  }
+  nav a {
+    font-size: 17px;
+  }
 }
 
-@media(max-width:909px) {
-    nav #icon {
-        display: block;
-    }
-    nav ul {
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        background: #2f3640;
-        top: 80px;
-        left: -100%;
-        text-align: center;
-        transition: all .5s;
-    }
-    nav li {
-        display: block;
-        margin: 50px 0;
-        line-height: 30px;
-    }
-    nav a {
-        font-size: 20px;
-    }
-    a.active,
-    a:hover {
-        border: none;
-        color: #3498db;
-    }
-    nav ul.show {
-        left: 0;
-    }
+@media (max-width: 909px) {
+  nav #icon {
+    display: block;
+  }
+  nav ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2f3640;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  nav li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav a {
+    font-size: 20px;
+  }
+  a.active,
+  a:hover {
+    border: none;
+    color: #3498db;
+  }
+  nav ul.show {
+    left: 0;
+  }
 }
 
 a:hover {
-    background: #7a8e9c;
-    transition: 0.5s;
+  background: #7a8e9c;
+  transition: 0.5s;
 }
 
 #main {
-    width: 100%;
-    height: 100vh;
-    background-image: url("./img/2.jpg");
-    background-size: cover;
-    position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url("./img/2.jpg");
+  background-size: cover;
+  position: relative;
 }
 
 #welcome {
-    margin: auto;
+  margin: auto;
 }
 
 .content .inner {
-    position: relative;
-    width: 100%;
-    background-color: #0009;
-    transform: translate(-50%, -50%);
+  position: relative;
+  width: 100%;
+  background-color: #0009;
+  transform: translate(-50%, -50%);
 }
 
 main {
-    width: 100%;
-    height: 80vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: white;
-    background-image: url("./img/1.jpg");
-    background-size: cover;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background-image: url("./img/1.jpg");
+  background-size: cover;
 }
 
 section h3 {
-    font-size: 40px;
-    letter-spacing: 4px;
-    font-weight: bold;
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: bold;
 }
 
 section h1 {
-    margin: 30px 0 20px 0;
-    font-size: 55px;
-    font-weight: 700;
-    text-shadow: 2px 1px 5px black;
-    text-transform: uppercase;
+  margin: 30px 0 20px 0;
+  font-size: 55px;
+  font-weight: 700;
+  text-shadow: 2px 1px 5px black;
+  text-transform: uppercase;
 }
 
 section .welcome-msg {
-    font-size: 25px;
-    word-spacing: 2px;
-    margin-bottom: 25px;
-    text-shadow: 1px 1px 1px black;
-    color: black;
+  font-size: 25px;
+  word-spacing: 2px;
+  margin-bottom: 25px;
+  text-shadow: 1px 1px 1px black;
+  color: black;
 }
 
 section a {
-    /* padding: 12px 30px; */
-    border-radius: 4px;
-    outline: none;
-    text-transform: uppercase;
-    font-size: 13px;
-    font-weight: 500;
-    text-decoration: none;
-    letter-spacing: 1px;
-    transition: all 0.5s ease;
+  /* padding: 12px 30px; */
+  border-radius: 4px;
+  outline: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: all 0.5s ease;
 }
 
 a.button5 {
-    display: inline-block;
-    padding: 20px;
-    border: 0.1em solid #000000;
-    margin: 0 0.2em 0.2em 0;
-    border-radius: 0.12em;
-    box-sizing: border-box;
-    text-decoration: none;
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    color: #000000;
-    text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
-    background-color: #c21414;
-    text-align: center;
-    transition: all 0.15s;
-    border-radius: 10px;
-    font-weight: bold;
+  display: inline-block;
+  padding: 20px;
+  border: 0.1em solid #000000;
+  margin: 0 0.2em 0.2em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #000000;
+  text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
+  background-color: #c21414;
+  text-align: center;
+  transition: all 0.15s;
+  border-radius: 10px;
+  font-weight: bold;
 }
 
 a.button5:hover {
-    text-shadow: 0 0 2em rgba(255, 255, 255, 1);
-    color: red;
-    border-color: red;
+  text-shadow: 0 0 2em rgba(255, 255, 255, 1);
+  color: red;
+  border-color: red;
 }
 
 /* search bar */
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
-body{
+body {
   background: #f2f2f2;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .search {
   width: 100%;
   position: relative;
   display: flex;
-  
 }
 
 .searchTerm {
   width: 100%;
-  border: 3px solid #00B4CC;
+  border: 3px solid #00b4cc;
   border-right: none;
   padding: 5px;
   height: 50px;
   border-radius: 5px 0 0 5px;
   outline: none;
-  color: #9DBFAF;
+  color: #9dbfaf;
 }
 
-.searchTerm:focus{
+.searchTerm:focus {
   color: black;
 }
 
@@ -243,7 +243,7 @@ body{
 }
 
 /*Resize the wrap to see the search bar change!*/
-.wrap{
+.wrap {
   width: 30%;
   position: absolute;
   top: 50%;
@@ -254,126 +254,116 @@ body{
 /* ---------------- */
 
 #contactus {
-    height: 80vh;
-    width: 100%;
+  height: 80vh;
+  width: 100%;
 }
 
 input[type="text"],
 select,
 textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 }
 
 input[type="submit"] {
-    background-color: #4caf50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
 }
 
 input[type="submit"]:hover {
-    background-color: #45a049;
+  background-color: #45a049;
 }
-
 
 /* Style the container/contact section */
 
 .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 10px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
 }
-
 
 /* Create two columns that float next to eachother */
 
 .column {
-    float: left;
-    width: 50%;
-    margin-top: 6px;
-    padding: 20px;
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
 }
-
 
 /* Clear floats after the columns */
 
 .row:after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 @media screen and (max-width: 600px) {
-    .column,
-    input[type="submit"] {
-        width: 100%;
-        margin-top: 0;
-    }
+  .column,
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 0;
+  }
 }
 
 footer p {
-    text-align: center;
-    margin-top: 100px;
-    margin-bottom: 50px;
-    font-weight: 500;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-weight: 500;
 }
 
 #aboutus {
-    width: 100%;
-    height: 80vh;
-    font-weight: bold;
-    text-align: center;
+  width: 100%;
+  height: 80vh;
+  font-weight: bold;
+  text-align: center;
 }
 
 section .aboutus {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 hr {
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    color: black;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
 }
 
 .about-para {
-    font-size: 20px;
-    font-weight: 400;
-}
-
-#aboursection {
-    background-image: url("./img/aboutus.jpg");
-    background-size: cover;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .Services {
-    width: 100%;
-    height: 100vh;
-    font-size: 50px;
-    font-weight: 500;
-    text-align: center;
-    background-image: url("./img/4.jpg");
-    background-size: cover;
-    color: white;
+  width: 100%;
+  height: 100vh;
+  font-size: 50px;
+  font-weight: 500;
+  text-align: center;
+  background-image: url("./img/4.jpg");
+  background-size: cover;
+  color: white;
 }
 
-.d-services{
-    height: 100px;
-    width: 100px;
-    background-color: #c21414;
-    display: flex;
-    flex-direction: column;
+.d-services {
+  height: 100px;
+  width: 100px;
+  background-color: #c21414;
+  display: flex;
+  flex-direction: column;
 }
 
-
-
-/* ------------- LOG IN ---------------- */
+/* ------------- LOG-IN & SIGN-UP  ---------------- */
 * {
   padding: 0;
   margin: 0;
@@ -487,13 +477,99 @@ span {
   position: absolute;
 }
 
-#login{
-    left: 50px;
-
+#login {
+  left: 50px;
 }
 
-#signup{
-    left: 450px;
+#signup {
+  left: 450px;
 }
 
-/* -------------------------------------- */
+/* --------------- about me styling  ----------------------- */
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.5;
+  /* font-family: 'Quicksand', sans-serif; */
+}
+:root {
+  --color: #219ebc;
+}
+
+#about-sec {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url("./img/aboutus.jpg");
+  background-size: cover;
+}
+
+.about-container {
+  width: 100%;
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.5rem;
+  align-items: center;
+  justify-content: center;
+}
+.about-left img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+.about-right > * {
+  margin-bottom: 1.1rem;
+  color: #fff;
+}
+.about-right h4 {
+  font-weight: 500;
+  background: var(--color);
+  display: inline-block;
+  padding: 5px 15px;
+  font-size: 16px;
+  border-radius: 4px;
+}
+.about-right h1 {
+  font-size: 2rem;
+  font-weight: 800;
+}
+.about-right p {
+  text-align: justify;
+}
+.about-btn {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 25px;
+  border: 2px solid var(--color);
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+}
+.about-btn::after {
+  content: "";
+  background: var(--color);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0%;
+  z-index: -1;
+  transition: width 0.5s ease;
+}
+.about-btn:hover::after {
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
