@@ -220,7 +220,7 @@ body {
   border: 3px solid #00b4cc;
   border-right: none;
   padding: 5px;
-  height: 50px;
+  height: 60px;
   border-radius: 5px 0 0 5px;
   outline: none;
   color: #9dbfaf;
@@ -231,7 +231,7 @@ body {
 }
 
 .searchButton {
-  width: 50px;
+  width: 60px;
   height: 60px;
   border: 1px solid #3eca1b;
   background: #3eca1b;
@@ -253,30 +253,30 @@ body {
 
 /* -------------------Contact us--------- */
 
-.contact-section{
+.contact-section {
   background: url("./img/contact-us.jpg") no-repeat center;
   background-size: cover;
   padding: 40px 0;
 }
-.contact-section h1{
+.contact-section h1 {
   text-align: center;
   color: rgb(255, 255, 255);
 }
-.border{
+.border {
   width: 100px;
   height: 10px;
   background: #dadfe4;
   margin: 40px auto;
 }
 
-.contact-form{
+.contact-form {
   max-width: 600px;
   margin: auto;
   padding: 0 10px;
   overflow: hidden;
 }
 
-.contact-form-text{
+.contact-form-text {
   display: block;
   width: 100%;
   box-sizing: border-box;
@@ -288,14 +288,14 @@ body {
   color: rgb(0, 0, 0);
   transition: 0.5s;
 }
-.contact-form-text:focus{
+.contact-form-text:focus {
   box-shadow: 0 0 10px 4px #0b518f;
 }
-textarea.contact-form-text{
+textarea.contact-form-text {
   resize: none;
   height: 100px;
 }
-.contact-form-btn{
+.contact-form-btn {
   float: right;
   border: 0;
   background: #34495e;
@@ -305,7 +305,7 @@ textarea.contact-form-text{
   cursor: pointer;
   transition: 0.5s;
 }
-.contact-form-btn:hover{
+.contact-form-btn:hover {
   background: #2980b9;
 }
 
