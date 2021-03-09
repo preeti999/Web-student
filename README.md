@@ -2,4 +2,4 @@
 
 ### tourism website 
 
-have a look : https://preeti999.github.io/Web-student/
+Have a look : https://preeti999.github.io/Web-student/
